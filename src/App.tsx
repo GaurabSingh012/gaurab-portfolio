@@ -3,7 +3,8 @@ import type { IconType } from 'react-icons';
 import {
   SiPython,
   SiJavascript,
-  SiTypescript,
+  SiC,
+  SiCplusplus,
   SiReact,
   SiFastapi,
   SiMongodb,
@@ -49,7 +50,8 @@ const skillRows: { label: string; description: string; items: SkillItem[] }[] = 
       { name: 'Python', icon: SiPython },
       { name: 'SQL', note: 'SQL' },
       { name: 'JavaScript', icon: SiJavascript },
-      { name: 'TypeScript', icon: SiTypescript },
+      { name: 'C', icon: SiC },
+      { name: 'C++', icon: SiCplusplus },
     ],
   },
   {

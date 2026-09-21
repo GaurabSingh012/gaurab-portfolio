@@ -153,12 +153,12 @@ h2 { margin:0; font-family:'Manrope',sans-serif; font-size:clamp(3rem,5.3vw,5.4r
 .experience-points p { margin:0; padding:15px 0; border-top:1px solid var(--line); color:var(--muted); line-height:1.7; }
 
 .projects-heading { align-items:end; }
-.projects-grid { margin-top:48px; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
-.project-card { min-height:690px; display:flex; flex-direction:column; border:1px solid var(--line); border-radius:26px; overflow:hidden; background:var(--panel); box-shadow:var(--shadow-soft); transition:transform .22s ease, border-color .22s ease, box-shadow .22s ease; }
+.projects-grid { margin-top:48px; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; align-items:stretch; }
+.project-card { height:700px; min-height:0; display:flex; flex-direction:column; border:1px solid var(--line); border-radius:26px; overflow:hidden; background:var(--panel); box-shadow:var(--shadow-soft); transition:transform .22s ease, border-color .22s ease, box-shadow .22s ease; }
 .project-card:hover { transform:translateY(-3px); border-color:color-mix(in srgb,var(--accent) 36%,var(--line)); box-shadow:var(--shadow); }
-.project-media { flex:0 0 265px; height:265px; display:grid; place-items:center; padding:18px; background:linear-gradient(145deg,#eef3fb,#f9fbff); border-bottom:1px solid var(--line); }
+.project-media { flex:0 0 265px; height:265px; min-height:265px; min-width:0; display:grid; place-items:center; overflow:hidden; padding:16px; background:linear-gradient(145deg,#eef3fb,#f9fbff); border-bottom:1px solid var(--line); box-sizing:border-box; }
 :root[data-theme='dark'] .project-media { background:linear-gradient(145deg,#141c29,#0f131b); }
-.project-image { width:100%; height:100%; object-fit:contain; object-position:center; display:block; }
+.project-image { display:block; width:100%; height:100%; max-width:100%; max-height:100%; object-fit:contain; object-position:center; }
 .manuscript-media { position:relative; overflow:hidden; background:radial-gradient(circle at 70% 20%,rgba(95,137,255,.2),transparent 32%),linear-gradient(145deg,#101827,#18243a); }
 .manuscript-sheet { width:min(76%,400px); aspect-ratio:1.35; background:linear-gradient(145deg,#ead5a0,#c9ad75); border:1px solid rgba(255,255,255,.22); border-radius:12px; padding:18px; transform:rotate(-5deg); box-shadow:0 18px 34px rgba(4,12,26,.35); }
 .manuscript-top { color:#6c542d; font-size:.58rem; letter-spacing:.16em; font-weight:800; }
@@ -166,7 +166,7 @@ h2 { margin:0; font-family:'Manrope',sans-serif; font-size:clamp(3rem,5.3vw,5.4r
 .manuscript-lines { margin-top:22px; display:grid; gap:10px; }
 .manuscript-lines i { height:7px; border-radius:999px; background:rgba(97,73,34,.33); }
 .manuscript-chip { margin-top:18px; display:inline-flex; padding:6px 8px; border-radius:999px; background:rgba(255,248,226,.38); color:#6c542d; font-size:.56rem; font-weight:800; letter-spacing:.12em; }
-.project-body { min-height:425px; padding:23px 24px 22px; display:flex; flex-direction:column; }
+.project-body { min-height:0; flex:1 1 auto; padding:23px 24px 22px; display:flex; flex-direction:column; box-sizing:border-box; }
 .project-meta { display:flex; justify-content:space-between; gap:10px; color:var(--faint); font-size:.67rem; letter-spacing:.11em; text-transform:uppercase; }
 .project-body h3 { margin:16px 0 9px; font-family:'Manrope',sans-serif; font-size:1.85rem; letter-spacing:-.05em; }
 .project-body p { margin:0; color:var(--muted); line-height:1.72; font-size:.9rem; }
@@ -250,9 +250,9 @@ h2 { margin:0; font-family:'Manrope',sans-serif; font-size:clamp(3rem,5.3vw,5.4r
   .focus-strip span { flex:1 1 50%; }
   .section { padding-bottom:98px; }
   h2, .about-layout > h2, .experience-layout-clean h2 { font-size:clamp(2.6rem,11vw,3.8rem); }
-  .project-card { min-height:0; }
-  .project-media { flex-basis:210px; height:210px; }
-  .project-body { min-height:370px; padding:21px 18px 19px; }
+  .project-card { height:auto; min-height:0; }
+  .project-media { flex-basis:210px; height:210px; min-height:210px; }
+  .project-body { min-height:0; padding:21px 18px 19px; }
   .project-body h3 { font-size:1.62rem; }
   .contact-panel { padding:36px 24px; border-radius:22px; }
   .contact-meta, .footer { flex-direction:column; align-items:flex-start; }
