@@ -1,75 +1,243 @@
-# React + TypeScript + Vite
+# Gaurab Kushwaha — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website of **Gaurab Kushwaha**, an Artificial Intelligence and Machine Learning student focused on building practical AI systems and software applications.
 
-Currently, two official plugins are available:
+🌐 **Portfolio:** [gaurabkus.dev](https://gaurabkus.dev)  
+💼 **LinkedIn:** [Gaurab Kushwaha](https://www.linkedin.com/in/gaurab-kushwaha-837237285/)  
+🐙 **GitHub:** [GaurabSingh012](https://github.com/GaurabSingh012)  
+📧 **Email:** [gaurabkus781@gmail.com](mailto:gaurabkus781@gmail.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I am a final-year **B.Tech student in Artificial Intelligence and Machine Learning** at Symbiosis Institute of Technology, Pune.
 
-## Expanding the ESLint configuration
+My interests and hands-on work span:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Machine Learning
+- Deep Learning
+- Computer Vision
+- Natural Language Processing
+- Generative AI
+- Large Language Models
+- AI application development
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+I enjoy taking an idea from data and experimentation to a practical, working application.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Tech Stack
 
-```
+### AI / Machine Learning
+- Machine Learning
+- Deep Learning
+- Computer Vision
+- NLP
+- Generative AI
+- LLMs
+- EfficientNet
+- MobileBERT
+- TensorFlow.js
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+### Programming & Data
+- Python
+- SQL
+- JavaScript
+- NumPy
+- Pandas
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Development
+- React.js
+- React Native
+- FastAPI
+- Node.js
+- Express.js
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Databases & Tools
+- MySQL
+- MongoDB
+- Git
+- GitHub
+- Linux
+- DVC
+- Postman
 
-```
+### Cloud & Services
+- AWS
+- MongoDB Atlas
+- Cloudinary
+- Hugging Face
+
+---
+
+## Featured Projects
+
+### CalibraKidney
+
+An AI-driven kidney health screening application that uses computer vision to interpret urinalysis test strips and classify kidney health stages.
+
+**Highlights**
+- Computer vision pipeline for automated strip interpretation
+- Dataset collection and annotation under different lighting conditions
+- Benchmarking of 19 deep learning models
+- EfficientNet-B2 selected for the final model
+- 5-fold cross-validation evaluation
+- FastAPI inference backend
+
+**Repository:**  
+[github.com/GaurabSingh012/CalibraKidney](https://github.com/GaurabSingh012/CalibraKidney)
+
+---
+
+### VisionAI
+
+A full-stack AI image generation platform built around text-to-image synthesis.
+
+**Highlights**
+- React-based frontend
+- Express.js backend
+- Hugging Face FLUX.1-schnell inference
+- MongoDB Atlas for application data
+- Cloudinary for optimized image delivery
+- Community gallery for generated artwork
+- AWS-based backend deployment
+
+**Repository:**  
+[github.com/GaurabSingh012/AI_Image_Gen](https://github.com/GaurabSingh012/AI_Image_Gen)
+
+---
+
+### Manuscript Digitizer
+
+An AI-based project focused on digitizing and restoring historical Nepali manuscripts.
+
+**Highlights**
+- Character-level dataset preparation and annotation
+- Image preprocessing
+- Computer vision based character recognition
+- OCR processing
+- NLP techniques for reconstructing readable digital text
+
+**Repository:**  
+[github.com/GaurabSingh012/Manuscript_Digitizer](https://github.com/GaurabSingh012/Manuscript_Digitizer)
+
+---
+
+### Ask-AI
+
+A browser-based document question-answering application that performs NLP inference directly on the client side.
+
+**Highlights**
+- React + TypeScript frontend
+- TensorFlow.js based inference
+- MobileBERT architecture
+- Client-side processing for improved data privacy
+- Browser-based hardware acceleration
+- Responsive interface
+
+**Live Demo:**  
+[Ask-AI](https://gaurabsingh012.github.io/Ask-AI/)
+
+**Repository:**  
+[github.com/GaurabSingh012/Ask-AI](https://github.com/GaurabSingh012/Ask-AI)
+
+---
+
+## Education
+
+### Symbiosis Institute of Technology, Pune
+
+**B.Tech in Artificial Intelligence and Machine Learning**  
+CGPA: **7.7 / 10**  
+July 2023 – June 2027
+
+### Tirion International College, Kathmandu
+
+**Higher Secondary Education (Class XII)**  
+GPA: **3.44**  
+June 2021 – April 2023
+
+---
+
+## Experience
+
+### Swayam Shikshan Prayog (SSP)
+**Service Learning Intern** — Pune, India  
+July 2025 – October 2025
+
+- Processed and analyzed survey datasets using Python, Pandas, and NumPy.
+- Cleaned and transformed collected datasets for analysis.
+- Supported data interpretation, visualization, and reporting.
+
+---
+
+## Certifications
+
+- **Deep Learning Specialization** — DeepLearning.AI
+- **Generative AI with Large Language Models** — DeepLearning.AI
+- **Practical Guide to Python** — Frontend Masters
+
+---
+
+## Achievement
+
+🏆 **Winner — SIT AIML Industry Conclave 2026**
+
+Also participated in the **InterCollege Web Design Competition — VSN IT Club**.
+
+---
+
+## Beyond Code
+
+Outside of AI and software development, I enjoy:
+
+- 🏏 Cricket
+- ♟️ Chess
+
+---
+
+## Portfolio Features
+
+The website includes:
+
+- Responsive single-page design
+- Dark / light theme
+- Project showcase
+- Skills and technology overview
+- Education and experience
+- Certifications and achievements
+- Resume download
+- Contact section
+- Responsive navigation
+- Performance-focused frontend implementation
+
+---
+
+## Built With
+
+- React
+- TypeScript
+- Vite
+- CSS
+- React Icons
+
+---
+
+## Contact
+
+For collaboration, internships, projects, or other opportunities:
+
+📧 **[gaurabkus781@gmail.com](mailto:gaurabkus781@gmail.com)**
+
+🌐 **[gaurabkus.dev](https://gaurabkus.dev)**
+
+💼 **[LinkedIn](https://www.linkedin.com/in/gaurab-kushwaha-837237285/)**
+
+🐙 **[GitHub](https://github.com/GaurabSingh012)**
+
+---
+
+## License
+
+This project is personal portfolio software. The source code is available for reference, but the portfolio content, images, resume, and personal materials belong to their respective owner.
