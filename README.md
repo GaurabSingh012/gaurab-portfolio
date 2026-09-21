@@ -1,6 +1,6 @@
 # Gaurab Kushwaha — Portfolio
 
-Personal portfolio website of **Gaurab Kushwaha**, an Artificial Intelligence and Machine Learning student focused on building practical AI systems and software applications.
+I am **Gaurab Kushwaha**, an Artificial Intelligence and Machine Learning student focused on building practical AI systems and software applications.
 
 🌐 **Portfolio:** [gaurabkus.dev](https://gaurabkus.dev)  
 💼 **LinkedIn:** [Gaurab Kushwaha](https://www.linkedin.com/in/gaurab-kushwaha-837237285/)  
